@@ -25,7 +25,10 @@ const ConversationComponent = ({
         <div className="h-full w-full">
             <div className="h-full w-full flex flex-col">
             <Header 
-
+            conversation={conversation}
+            isInCall={isInCall}
+            currentUserPrisma={currentUserPrisma}
+            setIsInCall={setIsInCall}
             />
             <Body
             initialMessages={messages}
