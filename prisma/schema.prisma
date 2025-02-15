@@ -19,6 +19,7 @@ model User {
   lastName String?
   username String @unique
   phoneNumber String @unique
+  profileImageUrl String?
   statusImageUrl String?
   about String?
   externalUserId String @unique

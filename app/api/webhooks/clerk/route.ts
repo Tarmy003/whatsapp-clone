@@ -57,7 +57,7 @@ export async function POST(req: Request) {
             data: {
                 externalUserId: payload.data.id,
                 username: payload.data.username,
-                phoneNumber: payload.data.phone_numbers[0].phone_number
+                phoneNumber: payload.data.phone_numbers[0].phone_number,profileImageUrl: payload.data.image_url
             }
         })
     }
