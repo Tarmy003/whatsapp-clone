@@ -15,12 +15,9 @@ const DesktopSidebarheader = ({
 }: DesktopSidebarHeaderProps) => {
     return ( 
         <div>
-            <NewContactSheet 
-            handleAddContact={() => {}}
-            />
-            <NewChatSheet
+            {/* <NewChatSheet
             currentUser={currentUser}
-             />
+             /> */}
         </div>
      );
 }
